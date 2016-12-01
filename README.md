@@ -18,5 +18,5 @@ $ cd demo-app
 
 最后，加载仓库的sh脚本并执行即可：
 ``` bash
-$ wget https://raw.githubusercontent.com/ark-zone/ark-init/master/init.sh | sh
+$ wget https://raw.githubusercontent.com/ark-zone/ark-init/master/init.sh && sh init.sh && rm init.sh 
 ```
