@@ -10,13 +10,9 @@
 ## 开始
 首先安装好你的`react-native`开发环境，参考[官方文档](https://facebook.github.io/react-native/docs/getting-started.html)
 
-然后新建一个目录并进入：
-``` bash
-$ mkdir demo-app
-$ cd demo-app
-```
-
-最后，加载仓库的sh脚本并执行即可：
+然后，加载远程安装脚本，并用`sh`命令执行初始化操作：
 ``` bash
 $ wget https://raw.githubusercontent.com/ark-zone/ark-init/master/init.sh && sh init.sh && rm init.sh 
 ```
+
+最后，根据提示，输入项目的名称（和`react-native`初始化的项目名称一致），回车即可。
