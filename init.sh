@@ -5,8 +5,8 @@ read -p "[?] Enter the project name: " project_name
 if
 [ ! $project_name ]
 then
-echo "[*] Bye!"
-exit 0
+  echo "[*] Bye!"
+  exit 0
 fi
 
 read -p "[?] Enter you project git-url: " git_url
@@ -26,8 +26,10 @@ npm install leancloud-storage@1.5.2 --save
 if
 [ $git_url ]
 then
-echo "[3] Clone git project code.. "
-git clone $git_url __arkapp__
+  echo "[3] Clone git project code.. "
+  git clone $git_url __arkapp__
+else
+  mkdir __arkapp__
 fi
 
 echo "[+] Initialize the project .."
